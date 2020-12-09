@@ -23,6 +23,7 @@ body {
 .room-homepage-header {
   grid-area: principal;
   background-image: url("images/desktop-image-hero-1.jpg");
+  background-repeat: no-repeat;
 }
 .room-header-display-flexbox {
   display: flex;
