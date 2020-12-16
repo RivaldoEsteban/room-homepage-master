@@ -1,0 +1,100 @@
+body {
+  font-size: 14px;
+  font-family: 'Spartan', sans-serif;
+  margin: 0px;
+}
+
+.room-homepage-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns:  repeat(7 , 1fr);
+  grid-template-rows: repeat(3 , 1fr);
+  grid-template-areas: "principal principal principal principal description description description"
+   "principal principal principal principal description description description"
+   "image1 image1 characteristics characteristics characteristics image2 image2";
+}
+
+.room-homepage-header {
+  grid-area: principal;
+  background-image: url("images/desktop-image-hero-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.room-header-display-flexbox {
+  display: flex;
+}
+.room-homepage-header div img {
+  /* margin: 50px 0 0 50px ; */
+  margin: 50px 40px 0 50px;
+}
+.room-homepage-header ul {
+  display: flex;
+  /* margin-left: 40px; */
+  margin-top: 45px;
+  padding: 0;
+}
+.room-homepage-header li {
+  margin: auto 10px;
+  color: white;
+  list-style-type: none;
+}
+.room-homepage-description {
+  grid-area: description;
+  height: inherit;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.room-homepage-description-container----- {
+  max-width: 500px;
+  display: flex;
+}
+.room-homepage-page-description h1 {
+  font-weight: 700;
+  font-size: 39px;
+}
+.room-homepage-description-shop-now {
+  display: flex;
+}
+.room-homepage-description-shop-now p {
+  letter-spacing: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.room-homepage-description-shop-now img {
+  height: 20px;
+  margin-top: 12px;
+  margin-left: 30px;
+}
+.room-homepage-description-buttons {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.room-homepage-description-buttons img {
+  background: black;
+  padding: 25px 35px;
+}
+.room-homepage-flexbox {
+
+}
+.room-homepage-footer-left-image {
+  grid-area: image1;
+  border: black;
+}
+.room-homepage-footer-left-image  img {
+  width: 100%;
+  height: 100%;
+}
+.room-homepage-characteristics-of-the-furniture{
+  grid-area: characteristics;
+  margin: 50px 80px 0;
+}
+.room-homepage-footer-right-image {
+  grid-area: image2;
+}
+.room-homepage-text {
+  color: hsl(0, 0%, 63%);
+  font-weight: lighter;
+}
