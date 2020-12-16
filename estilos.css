@@ -59,6 +59,7 @@ body {
 }
 .room-homepage-container-description {
   max-width: 500px;
+  margin: 0 90px;
 }
 .room-homepage-description-width h1 {
   font-weight: 700;
@@ -74,7 +75,8 @@ body {
   text-transform: uppercase;
 }
 .room-homepage-description-shop-now img {
-  height: 20px;
+  height: 15px;
+  width: 50px;
   margin-top: 12px;
   margin-left: 30px;
 }
@@ -87,7 +89,7 @@ body {
   display: flex;
 }
 .room-homepage-description-svg {
-  width: 75px;
+  width: 103px;
   height: 75px;
   background-color: black;
   display: flex;
@@ -106,6 +108,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 60px;
 }
 .room-homepage-characteristics-focused-content {
   width: 600px;
