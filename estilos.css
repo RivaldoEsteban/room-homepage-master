@@ -1,13 +1,7 @@
 body {
-  /* border: 1px solid red; */
   font-size: 14px;
   font-family: 'Spartan', sans-serif;
   margin: 0px;
-}
-.wrapper {
-  /* width: 100vw;
-  height: 100vh; */
-  /* max-width: 1200px; */
 }
 
 .room-homepage-container {
@@ -19,38 +13,57 @@ body {
    "principal principal principal principal description description description"
    "image1 image1 characteristics characteristics characteristics image2 image2";
 }
-
-.room-homepage-header {
+.room-homepage-principal {
   grid-area: principal;
   background-image: url("images/desktop-image-hero-1.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
-.room-header-display-flexbox {
+.room-homepage-header {
+  height: 55px;
   display: flex;
-}
-.room-homepage-header div img {
-  /* margin: 50px 0 0 50px ; */
-  margin: 50px 40px 0 50px;
+  align-items: center;
+  margin-top: 50px;
 }
 .room-homepage-header ul {
+  margin: 0;
   display: flex;
-  /* margin-left: 40px; */
-  margin-top: 45px;
-  padding: 0;
+  align-items: center;
 }
 .room-homepage-header li {
-  margin: auto 10px;
-  color: white;
-  list-style-type: none;
+  display: flex;
+  list-style: none;
+  height: 55px;
+  align-items: center;
 }
-.room-homepage-page-description {
+.room-homepage-header a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  margin: 0 25px;
+  font-size: 18px;
+
+}
+.room-header-logo {
+  margin-right: 30px;
+}
+.room-homepage-description {
   grid-area: description;
-  padding: 40px 50px 0 70px ;
-  /* border: 5px solid blue; */
+  position: relative;
 }
-.room-homepage-page-description h1 {
+.room-homepage-description-width {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.room-homepage-container-description {
+  max-width: 500px;
+}
+.room-homepage-description-width h1 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 39px;
+  margin-bottom: 25px;
 }
 .room-homepage-description-shop-now {
   display: flex;
@@ -66,30 +79,52 @@ body {
   margin-left: 30px;
 }
 .room-homepage-description-buttons {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.room-homepage-description-buttons-container {
   display: flex;
-  margin-top: 57px;
-  margin-left: -70px;
 }
-.room-homepage-description-buttons  img {
-  background: black;
-  padding: 25px 35px;
-  /* align-content: flex-end;
-  justify-content: flex-end; */
-
+.room-homepage-description-svg {
+  width: 75px;
+  height: 75px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 .room-homepage-footer-left-image {
   grid-area: image1;
-  border: black;
+}
+.room-homepage-footer-left-image  img {
+  width: 100%;
+  height: 100%;
 }
 .room-homepage-characteristics-of-the-furniture{
   grid-area: characteristics;
-  margin: 50px 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.room-homepage-characteristics-focused-content {
+  width: 600px;
+}
+.room-homepage-characteristics-focused-content h2 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 17px;
 }
 .room-homepage-footer-right-image {
   grid-area: image2;
-  /* border: 5px solid rosybrown; */
 }
+.room-homepage-footer-right-image img {
+  width: 100%;
+  height: 100%;
+}
+
 .room-homepage-text {
   color: hsl(0, 0%, 63%);
+  font-weight: lighter;
+  line-height: 25px;
 }
