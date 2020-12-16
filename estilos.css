@@ -48,22 +48,36 @@ body {
 }
 .room-homepage-description {
   grid-area: description;
+<<<<<<< HEAD
   position: relative;
 }
 .room-homepage-description-width {
   width: 100%;
   height: 80%;
+=======
+  height: inherit;
+  position: relative;
+>>>>>>> b21c8ba94b2a8a15e420de51bfb49ffb337811eb
   display: flex;
   align-items: center;
   justify-content: center;
 }
+<<<<<<< HEAD
 .room-homepage-container-description {
   max-width: 500px;
+=======
+.room-homepage-description-container----- {
+  max-width: 500px;
+  display: flex;
+>>>>>>> b21c8ba94b2a8a15e420de51bfb49ffb337811eb
 }
 .room-homepage-description-width h1 {
   font-weight: 700;
   font-size: 39px;
+<<<<<<< HEAD
   margin-bottom: 25px;
+=======
+>>>>>>> b21c8ba94b2a8a15e420de51bfb49ffb337811eb
 }
 .room-homepage-description-shop-now {
   display: flex;
@@ -83,6 +97,7 @@ body {
   left: 0;
   bottom: 0;
 }
+<<<<<<< HEAD
 .room-homepage-description-buttons-container {
   display: flex;
 }
@@ -93,9 +108,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+=======z
+.room-homepage-description-buttons img {
+  background: black;
+  padding: 25px 35px;
+}
+.room-homepage-flexbox {
+
+>>>>>>> b21c8ba94b2a8a15e420de51bfb49ffb33781`1eb
 }
 .room-homepage-footer-left-image {
   grid-area: image1;
+}
+.room-homepage-footer-left-image  img {
+  width: 100%;
+  height: 100%;
 }
 .room-homepage-footer-left-image  img {
   width: 100%;
@@ -126,5 +153,8 @@ body {
 .room-homepage-text {
   color: hsl(0, 0%, 63%);
   font-weight: lighter;
+<<<<<<< HEAD
   line-height: 25px;
+=======
+>>>>>>> b21c8ba94b2a8a15e420de51bfb49ffb337811eb
 }
